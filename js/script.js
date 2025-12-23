@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
             const response = await fetch(
-                "http://localhost:3000/api/contact", // 🔁 deploy panninaa change pannu
+                "http://localhost:5000/api/contact",
                 {
                     method: "POST",
                     headers: {
